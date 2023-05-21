@@ -24,3 +24,4 @@ def maml_sine(model, epochs, lr_inner=0.01, batch_size=1):
             if (i + 1) % batch_size == 0:
                 optimizer.step()
                 optimizer.zero_grad()
+```
