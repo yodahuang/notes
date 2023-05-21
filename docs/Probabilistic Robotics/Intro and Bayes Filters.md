@@ -1,6 +1,7 @@
 ---
 chapter: 2
 share: true
+aliases: [Bayes Filter]
 ---
 
 - $z_t$: measurement data
