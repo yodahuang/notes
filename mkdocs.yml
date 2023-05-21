@@ -4,8 +4,8 @@ site_url: https://notes.yanda.rocks/
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    icon:
+      logo: material/lightbulb-on
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -38,6 +38,7 @@ theme:
         - navigation.expand
         - search.suggest
         - search.highlight
+        - content.code.annotate
         
 # Extensions
 markdown_extensions:
