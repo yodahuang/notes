@@ -42,4 +42,4 @@ Comment: what a *surprise*. I mean [[Swin Transformer]] is $7 \times 7$.
 - Separate out the downsampling layers. Between each stage, $2\times2$ conv layers with stride $2$ for spatial downsampling. For [[ResNet]] it was $3\times 3$, at the start of each stage. To stabalize training, some [[LayerNorm]] layers are added. 
 ![[imgs/convnext_block.png]]
 
-![[../../Pasted image 20230704114742.png]]
+![[imgs/convnext_arch_comparison.png]]
